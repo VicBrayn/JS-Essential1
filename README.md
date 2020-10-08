@@ -1,2 +1,1 @@
-# JS-Essential1
-JavaScript Essential mini project to modify a div having a background color, height and width with a click on a set button.
+Hi, I am Victoria Agbemor Brayn, I have completed an online tutoria on JavaScript Essentials and I am about to undertake the mini project at the end of the tutorial. I am to add an event to a div having three dropdown menus: background color, height and width, via  a for loop
