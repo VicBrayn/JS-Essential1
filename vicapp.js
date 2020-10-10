@@ -1,6 +1,8 @@
+let elements = document.getElementsByName('cssProperty'); 
+
 function Set () 
 {
-    let elements = document.getElementsByName('cssProperty'); 
+   
     for (let index=o;index<elements.length;index++)
     {
         let cssProperty = (elements[index].getAttribute('id'));
