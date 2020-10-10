@@ -6,6 +6,7 @@ element.onclick = function (){alert('hello');};
 
 document.body.appendChild (element);
 
+
 let elements = document.getElementsByName('cssProperty'); 
 let div = document.getElementsById('modify');
 function Set () 
