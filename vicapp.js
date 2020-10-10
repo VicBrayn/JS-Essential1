@@ -1,5 +1,5 @@
 let elements = document.getElementsByName('cssProperty'); 
-
+let div = document.getElementsById('modify');
 function Set () 
 {
    
@@ -9,7 +9,6 @@ function Set ()
         let cssValue = (elements[index].value);
         console.log (cssProperty,cssValue);
 
-        let div = document.getElementsById('modify');
         div.style[cssProperty] = cssValue;
     }
 
