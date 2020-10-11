@@ -12,11 +12,11 @@ document.body.appendChild (element);
     document.getElementsByName('cssProperty');
     console.log(elements); 
 
-    let div = document.getElementsById('modify');
+    let div = document.getElementById('modify');
 
     function Set () 
 {
-    for (let index =0; index<elements.length; index++)
+    for ( index =0; index<elements.length; index++)
     {
         let cssProperty = (elements[ index ].getAttribute('id'));
 
@@ -27,3 +27,5 @@ document.body.appendChild (element);
 }
  
 document.getElementById('set').addEventListener('click', set);
+
+document.getElementById('set').addEventListener('dblclick', set);
